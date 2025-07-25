@@ -1,0 +1,60 @@
+
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input, form select, form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1e40af;
+}
+
+.goal-completed {
+  color: green;
+  font-weight: bold;
+}
+
+.goal-overdue {
+  color: red;
+  font-weight: bold;
+}
+
+.goal-warning {
+  color: orange;
+}
